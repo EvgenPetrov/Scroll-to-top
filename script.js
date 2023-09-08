@@ -1,7 +1,7 @@
 const scrollBtn = document.querySelector("#scroll-to-top");
 
 window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 300) {
+  if (window.scrollY > 300) {
     scrollBtn.style.display = "block";
   } else {
     scrollBtn.style.display = "none";

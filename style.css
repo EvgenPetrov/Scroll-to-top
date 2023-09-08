@@ -1,0 +1,10 @@
+#scroll-to-top {
+  color: white;
+  background: #e62c36;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 0.5rem;
+  cursor: pointer;
+  display: none;
+}
